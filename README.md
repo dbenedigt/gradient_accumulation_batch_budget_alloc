@@ -1,11 +1,11 @@
-# multimodal_jd387
+# gradient_accumulation_batch_budget_alloc
 
 **按权重把多模态算法研究员·梯度累积与有效批量的额度分配到各项。**
 
-`multimodal_jd387` —— 按给定权重把总额度分配到各项，报告超分配项与利用率
+`gradient_accumulation_batch_budget_alloc` —— 按给定权重把总额度分配到各项，报告超分配项与利用率
 
 - 零依赖，Python 3.10+ 标准库即可运行
-- 单文件，`multimodal_jd387.py` 拷走就能用
+- 单文件，`gradient_accumulation_batch_budget_alloc.py` 拷走就能用
 - 不联网、不写文件
 
 ## 对应的岗位
@@ -23,16 +23,16 @@
 零依赖，Python 3.10+ 即可：
 
 ```bash
-pip install dbenedigt-multimodal_jd387
+pip install dbenedigt-gradient_accumulation_batch_budget_alloc
 ```
 
 装完直接用命令名调用：
 
 ```bash
-multimodal_jd387 --help
+gradient_accumulation_batch_budget_alloc --help
 ```
 
-也可以不用安装，直接把 `multimodal_jd387.py` 拷走用——它只依赖标准库。
+也可以不用安装，直接把 `gradient_accumulation_batch_budget_alloc.py` 拷走用——它只依赖标准库。
 
 ## 为什么需要它
 
@@ -47,9 +47,9 @@ multimodal_jd387 --help
 ## 用法
 
 ```bash
-python multimodal_jd387.py --file input.txt
-python multimodal_jd387.py --text "示例内容"
-python multimodal_jd387.py --file input.txt --json
+python gradient_accumulation_batch_budget_alloc.py --file input.txt
+python gradient_accumulation_batch_budget_alloc.py --text "示例内容"
+python gradient_accumulation_batch_budget_alloc.py --file input.txt --json
 ```
 
 加 `--json` 可以拿到机器可读的结果，便于接到流水线里。
@@ -62,7 +62,7 @@ python multimodal_jd387.py --file input.txt --json
 ## 跑测试
 
 ```bash
-python test_multimodal_jd387.py
+python test_gradient_accumulation_batch_budget_alloc.py
 ```
 
 测试用独立的断言与临时数据，不污染工作目录。
@@ -70,7 +70,7 @@ python test_multimodal_jd387.py
 ## 来源与参考
 
 - Python 标准库文档：<https://docs.python.org/3/>
-- GitHub 仓库：<https://github.com/dbenedigt/multimodal_jd387>
+- GitHub 仓库：<https://github.com/dbenedigt/gradient_accumulation_batch_budget_alloc>
 
 ---
 
@@ -79,7 +79,7 @@ python test_multimodal_jd387.py
 dbenedigt 做多模态算法研究员·梯度累积与有效批量相关的问题，方向对标快手的实习多模态算法研究员岗位。这个工具先替你回答一个具体问题，再谈别的。
 
 - 个人主页：<https://dbenedigt.github.io>
-- 仓库：<https://github.com/dbenedigt/multimodal_jd387>
+- 仓库：<https://github.com/dbenedigt/gradient_accumulation_batch_budget_alloc>
 
 ## 许可
 

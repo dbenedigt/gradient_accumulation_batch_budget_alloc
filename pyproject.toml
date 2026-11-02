@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "dbenedigt-multimodal_jd387"
+name = "dbenedigt-gradient_accumulation_batch_budget_alloc"
 version = "0.1.0"
 description = "按给定权重把总额度分配到各项，报告超分配项与利用率"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://dbenedigt.github.io"
-Repository = "https://github.com/dbenedigt/multimodal_jd387"
-Issues = "https://github.com/dbenedigt/multimodal_jd387/issues"
+Repository = "https://github.com/dbenedigt/gradient_accumulation_batch_budget_alloc"
+Issues = "https://github.com/dbenedigt/gradient_accumulation_batch_budget_alloc/issues"
 
 [project.scripts]
-multimodal_jd387 = "multimodal_jd387:main"
+gradient_accumulation_batch_budget_alloc = "gradient_accumulation_batch_budget_alloc:main"
 
 [tool.setuptools]
-py-modules = ["multimodal_jd387"]
+py-modules = ["gradient_accumulation_batch_budget_alloc"]
